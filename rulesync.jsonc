@@ -1,0 +1,13 @@
+{
+  // rulesync configuration
+  // https://github.com/dyoshikawa/rulesync
+  //
+  // 生成コマンド: npx rulesync generate
+  // ソース: .rulesync/ ディレクトリ
+  // ターゲット: copilot (.github/), claudecode (.claude/), agentsskills (.agents/)
+  "targets": ["copilot", "claudecode", "agentsskills"],
+  "features": ["rules", "commands", "skills"],
+  "outputRoots": ["."],
+  "delete": true,
+  "verbose": false
+}
